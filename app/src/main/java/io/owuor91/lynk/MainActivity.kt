@@ -2,7 +2,6 @@ package io.owuor91.lynk
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import android.util.Log
 
 class MainActivity : AppCompatActivity() {
   
