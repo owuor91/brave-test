@@ -1,9 +1,11 @@
-package io.owuor91.lynk
+package io.owuor91.lynk.ui
 
 import android.content.Intent
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import io.owuor91.lynk.Constants
+import io.owuor91.lynk.R.layout
 import io.owuor91.lynk.R.string
 import kotlinx.android.synthetic.main.activity_login.btnLogin
 import kotlinx.android.synthetic.main.activity_login.etPassword
@@ -14,7 +16,7 @@ class LoginActivity : AppCompatActivity() {
   
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
-    setContentView(R.layout.activity_login)
+    setContentView(layout.activity_login)
     loginUser()
   }
   

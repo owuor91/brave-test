@@ -2,4 +2,6 @@
   <string name="app_name">Lynk</string>
   <string name="login_success">Login Successful</string>
   <string name="invalid_password">Invalid username or password</string>
+  <string name="list_difference">List Difference</string>
+  <string name="list_diff">List Difference</string>
 </resources>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
-    tools:context=".LoginActivity"
+    tools:context=".ui.LoginActivity"
     >
   
-  <android.support.design.widget.TextInputLayout
+  <com.google.android.material.textfield.TextInputLayout
       android:id="@+id/textInputLayoutUsername"
       android:layout_width="0dp"
       android:layout_height="wrap_content"
@@ -22,7 +22,7 @@
       app:layout_constraintTop_toBottomOf="@+id/imageView"
       >
     
-    <android.support.design.widget.TextInputEditText
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/etUsername"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -30,9 +30,9 @@
         android:hint="Username"
         android:textColor="@android:color/black"
         />
-  </android.support.design.widget.TextInputLayout>
+  </com.google.android.material.textfield.TextInputLayout>
   
-  <android.support.design.widget.TextInputLayout
+  <com.google.android.material.textfield.TextInputLayout
       
       android:id="@+id/textInputLayoutPassword"
       android:layout_width="0dp"
@@ -47,7 +47,7 @@
       app:passwordToggleEnabled="true"
       >
     
-    <android.support.design.widget.TextInputEditText
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/etPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -56,7 +56,7 @@
         android:inputType="textPassword"
         android:textColor="@android:color/black"
         />
-  </android.support.design.widget.TextInputLayout>
+  </com.google.android.material.textfield.TextInputLayout>
   <ImageView
       android:id="@+id/imageView"
       android:layout_width="200dp"
@@ -89,4 +89,4 @@
       />
 
 
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
