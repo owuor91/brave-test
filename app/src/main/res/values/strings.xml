@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Lynk</string>
+  <string name="app_name">Lynk</string>
+  <string name="login_success">Login Successful</string>
+  <string name="invalid_password">Invalid username or password</string>
 </resources>
